@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>COVID Comparison Dashboard</title>
+</head>
+<body>
+    <main>
+    <h1>COVID Comparison Dashboard</h1>
+    <div id="main">
+        <section id="country-selector">
+            <label for="country-select">Choose a country:</label>
+            <select name="countries" id="country-select"></select>
+            <button type="submit" id="country-button">Pull stats</button>
+        </section>
+        <div id="comparison">
+            <section id="country-stats"><h5>Select country above</h5></section>
+            <section id="world-comparison"></section>
+        </div>
+        <section id="compare-stats">
+            <h2>Comparison</h2>
+            <p>Comparison statistics will appear shortly after country selection.</p>
+        </section>
+    </div>
+
+    <script src="./script.js"></script>
+    </main>
+</body>
+</html>

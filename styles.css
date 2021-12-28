@@ -1,0 +1,32 @@
+body {
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+#country-selector {
+    width: 100vw;
+}
+
+#comparison {
+    width: 100vw;
+    display: inline-flex;
+}
+
+#country-stats {
+    background-color: lightslategray;
+    width: 35vw;
+    float: left;
+    margin: 5%;
+}
+
+#world-comparison {
+    background-color: lightslategrey;
+    width: 35vw;
+    float: right;
+    margin: 5%;
+}
+
+#compare-stats {
+    background-color: lightgray;
+    width: 100vw;
+}
